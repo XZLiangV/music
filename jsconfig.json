@@ -1,0 +1,14 @@
+{
+  // 配置 @ 路径
+  "compilerOptions": {
+    "target": "ES6", // define to your liking
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./", // 根路径
+    // 配置
+    "paths": {
+      "@/*": ["src/"]
+    }
+  },
+  "exclude": ["node_modules"] // Optional
+}
